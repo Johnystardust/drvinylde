@@ -1,0 +1,5 @@
+.product-list span{display:block;}
+.product-list em{
+	margin-top: expression(this.parentNode.offsetHeight > this.offsetHeight ? ((this.parentNode.offsetHeight-this.offsetHeight)/2 + "px") : "0"); 
+	display:block;
+}
